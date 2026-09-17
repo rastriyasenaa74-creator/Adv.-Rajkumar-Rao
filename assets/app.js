@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded",()=>{
 });
 
 async function api(action,data={}){
-  if(!SITE_CONFIG.API_URL||SITE_CONFIG.API_URL.includes(https://script.google.com/macros/s/AKfycbxgbOyOxRmBk26vU_oJk4xqHKvyMJn3ChV0koBHV3Y6UbC0JQ9QtvEUir1nT1ojfYI/exec))
+  if(!SITE_CONFIG.API_URL||SITE_CONFIG.API_URL.includes())
     throw new Error("Google Apps Script Web App URL अभी assets/config.js में नहीं डाली गई है।");
   const res=await fetch(SITE_CONFIG.API_URL,{method:"POST",headers:{"Content-Type":"text/plain;charset=utf-8"},body:JSON.stringify({action,...data})});
   const out=await res.json();
