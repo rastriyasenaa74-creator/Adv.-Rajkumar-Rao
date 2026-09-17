@@ -1,5 +1,5 @@
 const SITE_CONFIG = {
-  API_URL: "YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL",
+  API_URL: "https://script.google.com/macros/s/AKfycbxgbOyOxRmBk26vU_oJk4xqHKvyMJn3ChV0koBHV3Y6UbC0JQ9QtvEUir1nT1ojfYI/exec",
   ADMIN_EMAIL: "advocaterajkumarrao@gmail.com",
   PHONE: "+918810904208",
   WHATSAPP: "+917348331408",
